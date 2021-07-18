@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 10% 5%;
+}
+
+.left-col {
+    font-size: 2rem;
+}
+
+.left-col {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+}
+
+.who-title {
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.body {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.gallery-items {
+    flex-basis: 40%;
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: auto;
+}
+
+.first {
+    margin-right: 5%;
+
+}
+
+.grid-container {
+    grid-column: 1/2;
+}
+
+.role{
+    grid-column: 2/3;
+    writing-mode: vertical-rl;
+    margin-left: -5%;
+    margin-right: 0%;
+    font-size: small;
+    padding: 0;
+    
+}
+
+.second {
+    margin-top: 10%;
+}
+
+.gallery-items img {
+    min-width: 160px;
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    /* position: relative;  */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: grey;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+} 
+
+.footer-text {
+    color: grey;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+
+/* Mobile Landscape Screen Sizes */
+@media only screen and (min-width: 480px)  {
+
+
+}
+/* Desktop screen Sizes */
+@media only screen and (min-width: 768px) {
+    body {
+        margin: 5% 20%;
+    }
+ 
+    header {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .left-col {
+        width: 40%;
+        margin-top: 0;
+    }
+
+    .who-container {
+        width: 40%;
+    }
+
+    .gallery-items {
+        flex-basis: 26.6%;
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        grid-template-rows: auto;
+    }
+    
+    .first, .second {
+        margin: 0%;
+
+    }
+
+    .role {
+        margin-right: 100%;
+    }
+
+    .gallery-items img {
+        width: 250px;
+        /* width: 100%; */
+        height: 350px;
+
+    }
+
+    .mid {
+        margin-top: 10%;
+    }
+
+
+}
+
+
+
+
+
+/* .bill {
+    writing-mode: vertical-rl;
+} */

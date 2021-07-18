@@ -1,0 +1,275 @@
+html {
+    font-size: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+h5 {
+    color: #BDBDBD;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.intro {
+    margin-bottom: 1rem;
+}
+
+.cheesecake-image {
+    width: 100%;
+    height: 35vh;
+    border-radius: 2%;
+ 
+}
+
+.recipe-title {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.recipe-intro {
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: grey;
+    font-size: 1rem;
+    width: 86%;
+    font-style: italic;
+    margin-top: -0.3rem;
+
+}
+
+.dots {
+    color: #4F4F4F;
+    width: 16px;
+    margin-right: 1rem;
+
+}
+
+.recipe-body-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.yields {
+    display: flex;
+    flex-direction: row;
+    height: 4vh;
+    margin-bottom: 2rem;
+}
+
+.fork-image {
+    width: 20px;
+    height: 100%;
+    margin-right: 0.5rem;
+}
+
+.yields-text {
+    height: 100%;
+    font-family: "Montserrat";
+}
+
+
+.orange-color {
+    color: orange;
+}
+
+.orange-background-color {
+    background-color: orange;
+}
+
+/* .times {
+    height: 4vh;
+} */
+
+.prep-time, .cook-time, .total-time {
+    display: flex;
+    flex-direction: row;
+    height: 4vh;
+
+}
+
+.clock-image {
+    width: 30px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.time-taken {
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.times {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+}
+
+
+.ingredients-header, .instructions-header {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.food-title {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.bold {
+    font-weight: bold;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.steps-list {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    margin-bottom: 1rem;
+
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+    margin-right: 1rem;
+
+}
+
+.second-section {
+    margin-top: 2rem;
+}
+
+.italics {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.step {
+    display: flex;
+    flex-direction: row;
+}
+
+.step-number {
+    background-color: orange;
+    color: white;
+    border-radius: 20%;
+    min-width: 2rem;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+    max-height: 50px;
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 1.5rem;
+    
+}
+
+.step-detail {
+    font-family: "Montserrat";
+    font-weight: 400;    
+}
+
+.instruction-steps {
+    margin-bottom: 1rem;
+}
+
+.source {
+    font-family: "Montserrat";
+    font-weight: 400;       
+    color: #BDBDBD;
+
+}
+
+footer {
+    font-family: "Montserrat";
+    font-weight: 700;  
+    color: #828282;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 0;
+
+}
+
+/* desktop view */
+@media only screen and (min-width: 768px) {
+    body{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .recipe-intro {
+        width:60%
+    }
+
+    .cheesecake-image {
+        height: auto;
+    }
+
+    .desktop-flex-container {
+        display: flex;     
+    }
+
+    main {
+        order: -1;
+        padding-right: 100px;
+    }
+
+    .card-container {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        height: fit-content; 
+        padding-top: 50px;
+        padding-left: 45px;
+ 
+
+    }
+    .times {
+        flex-direction: column;
+        width: 200px;
+
+    }
+
+    .prep-time, .cook-time, .total-time {
+        height: fit-content;
+    }
+
+    .prep-time {
+        margin-bottom: 50px;
+    }
+
+    .cook-time {
+        margin-bottom: 50px;
+    }
+
+    .github-link {
+        color: #828282;
+    }
+
+}

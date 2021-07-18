@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+}
+
+header {
+  font-weight: bold;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.col-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.col-1 img {
+  width: 65%;
+  height: auto;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 5%;
+}
+
+button {
+  padding: 15px;
+  background-color: black;
+  color: white;
+}
+
+.body {
+  font-size: 1rem;
+  margin-bottom: 5%;
+}
+
+button:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: grey;
+  text-align: center;
+}
+
+.footer-text {
+  color: grey;
+}
+
+.col-3 {
+  margin-left: 5%;
+}
+
+a {
+  color: grey;
+}
+
+/* Desktop screen Sizes */
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .col-1 {
+    flex-basis: 45%;
+  }
+
+  .col-1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .bold {
+    font-weight: bolder;
+  }
+
+  .title {
+    font-size: 4.5rem;
+  }
+
+  button {
+    padding: 20px;
+    background-color: black;
+    color: white;
+  }
+
+  .body {
+    padding-right: 45%;
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+  }
+
+  button:hover {
+    background-color: grey;
+    cursor: pointer;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: grey;
+    text-align: center;
+  }
+}

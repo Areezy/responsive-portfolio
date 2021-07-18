@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #181719;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 3% 3%;
+}
+
+.title {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.menu {
+    height: 2em;
+    width: 2em;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.page-header {
+    font-family: 'Lora';
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.page-body {
+    width: 60%;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.read-more {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-top: 5%;
+    font-size: 1rem;
+}
+
+.arrow-right {
+    /* width: 5%;
+    height: 5%; */
+    margin-left: 5px;
+    font-weight: bolder;
+    /* margin-top: 2%;
+    margin-left: 2%; */
+}
+
+.read-more-flex-container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: stretch; */
+    
+
+}
+
+.room-image-container {
+    width: 100%;
+}
+
+/* .room-image-container img {
+    width: 100%;
+} */
+
+.room-image {
+    width: 100%;
+    height: 100%;
+}
+
+.info-card {
+    width: 90%;
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+    padding: 1.5rem 1rem 1rem 2rem;
+    position: relative;
+    top: -3rem;
+    right:1rem;
+    left: 1rem;
+    background-color: #181719;
+
+}
+
+.info-card-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.designer-image {
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    margin-right: 2rem;
+}
+
+.designer-name, .designer-role {
+    margin: 0;
+}
+
+.designer-name {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.designer-role {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1rem;
+    color:grey;
+}
+
+.designed-date {
+    font-family: 'Lora';
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #A9A9A9;
+    
+   
+}
+
+a {
+    color: #A9A9A9;
+}
+
+
+.header-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.inactive {
+    display: none;
+}
+
+
+.expanded-list {
+    list-style-type: none;
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    
+
+}
+
+.expanded-list-items, .close-menu {
+    cursor: pointer;
+}
+
+.active-list {
+    font-weight: bold;
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid white;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .menu {
+        display: none;
+    }
+
+    .active-desktop {
+        display: block;
+    }
+
+    .desktop-nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .expanded-list {
+        height: 0;
+        width: 40vw;
+        margin-bottom: 0;
+
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        margin-top: 6rem;
+    }
+
+    .left-desktop-column {
+        margin-top: 5%;
+        
+    }
+
+    .info-card {
+        max-width: 35rem;
+        right: 100rem;
+    }
+
+    .page-header {
+        font-size: 3.5rem;
+    }
+
+    .page-body {
+        font-size: 1.5rem;
+    }
+ 
+
+}
+
+

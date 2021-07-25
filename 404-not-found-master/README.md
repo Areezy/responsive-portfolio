@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://responsive-portfolio-eta.vercel.app/404-not-found-master/index.html">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/Areezy/responsive-portfolio/edit/master/404-not-found-master/">
       Solution
     </a>
     <span> | </span>
@@ -33,19 +33,15 @@
 
 ## Overview
 
+A fully responsive single page.
+
+Desktop and Mobile screenshots below
+
 ![PC screenshot](https://drive.google.com/uc?export=view&id=1kXjFpuu7xccw7e4q6CI5Fqprlouq8DMX)
 
 
-![Mobile screenshot](https://drive.google.com/uc?export=view&id=1kXjFpuu7xccw7e4q6CI5Fqprlouq8DMX)
+![Mobile screenshot](https://drive.google.com/uc?export=view&id=13zbnqeaHeM-kjEhBOu02sLchFveX0FCM)
 
-
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
 
 ### Built With
 

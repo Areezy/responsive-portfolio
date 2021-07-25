@@ -5,9 +5,9 @@ This is a repo of Responsive webpages built for my portfolio.
 
 
 ## Tech Stack
-[x] HTML
-[x] CSS
-[x] JavaScript
+* HTML
+* CSS
+* JavaScript
 
 ## Design
 Credit to devChallenges.io for the designs

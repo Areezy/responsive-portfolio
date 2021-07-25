@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 4%;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #4E5150;
+
+}
+
+.cart {
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 20px;
+
+    /* height: fit-content; */
+}
+
+.cart-item {
+    display: flex;
+    margin-bottom: 2rem;
+    /* justify-content: space-evenly; */
+    /* margin-top: 20px; */
+}
+
+
+.cart-item-image {
+    width: 160px;
+    height: 160px;
+    border-radius: 12px;
+    margin-right: 1rem;
+
+}
+
+.cart-item-prices {
+
+
+
+}
+.cart-item-selector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:2px solid #828282;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.cart-item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35vw;
+}
+
+.block-display {
+    display:block;
+}
+
+.inline-display {
+    display: inline;
+}
+
+.item-name {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.discounted-price {
+    font-size: 1rem;
+    color: #F2994A;
+    margin-right: 1rem;
+}
+
+.price {
+    font-size: 0.8rem;
+    text-decoration: line-through;
+}
+
+button {
+    height: 30px;
+    width: 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-align: center;
+    line-height: 1rem;
+    -webkit-appearance: none; 
+    border-radius: 4px;
+    background-color: #E0E0E0;
+    color: #828282;
+    border: 0px;   
+}
+
+.shipping-item-cost {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 6rem;
+}
+
+.total-item-cost {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #BDBDBD;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+}
+
+.shipping-text, .shipping-cost {
+    font-size: 1rem;
+}
+
+.form-section {
+    margin-top: 3rem;
+}
+
+.item-amount {
+    background-color: #F2F2F2;
+    border: 0;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-element-full {
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #828282;
+    background-repeat: no-repeat;
+    background-position: 11px 11px;
+    color: #4F4F4F;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+}
+
+.form-element-containers {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.labels {
+    display: inline-block;
+    margin-bottom: 0.3rem;
+    color: #4F4F4F;
+}
+
+.email-input {
+    background-image: url("./images/email.svg");
+}
+
+.phone-input {
+    background-image: url("./images/phone.svg");
+}
+
+.fullname-input {
+    background-image: url("./images/profile_circle.svg");
+}
+
+.address-input {
+    background-image: url("./images/home.svg");
+}
+
+.city-input {
+    background-image: url("./images/apartment.svg");
+}
+
+.country-select {
+    background-image: url("./images/apartment.svg");
+
+}
+
+.postal-code-input {
+    background-image: url("./images/suitcase.svg");
+}
+
+.shipping-info {
+    margin-top: 3rem;
+}
+
+.country-container {
+    width: 47%;
+}
+
+.postal-code-container {
+    width: 47%;
+}
+
+.two-col{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-flex-container {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.submit-btn {
+    -webkit-appearance: none;
+    width: 47%;
+    height: 60px;
+    border-radius: 12px;
+    background-color: #F2994A;
+    color: white;
+    border: 0px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #f8b071;
+}
+
+footer { 
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #A9A9A9; 
+    margin-top: 2%;
+}
+
+a {
+    color: #A9A9A9;
+}
+
+
+@media only screen and (min-width: 768px) {
+    body {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 2%;
+        margin-bottom: 0;
+    }
+    main {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .cart {
+        width: 25vw;
+        height: fit-content;
+    }
+
+    .form-section {
+        order: -1;
+        width: 40%;
+    }
+
+
+
+
+
+}

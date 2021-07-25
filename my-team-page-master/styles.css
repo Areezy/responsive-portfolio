@@ -28,6 +28,7 @@ body{
 .photo-gallery {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
     width: 100%;
     margin-top: 10%;
 }
@@ -55,8 +56,7 @@ body{
 .role{
     grid-column: 2/3;
     writing-mode: vertical-rl;
-    margin-left: -5%;
-    margin-right: 0%;
+    margin: 0%;
     font-size: small;
     padding: 0;
     
@@ -92,11 +92,6 @@ footer {
 }
 
 
-/* Mobile Landscape Screen Sizes */
-@media only screen and (min-width: 480px)  {
-
-
-}
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
     body {
@@ -130,9 +125,6 @@ footer {
 
     }
 
-    .role {
-        margin-right: 100%;
-    }
 
     .gallery-items img {
         width: 250px;

@@ -216,6 +216,10 @@ footer {
 
 }
 
+.github-link {
+    color: #828282;
+}
+
 /* desktop view */
 @media only screen and (min-width: 768px) {
     body{
@@ -268,8 +272,6 @@ footer {
         margin-bottom: 50px;
     }
 
-    .github-link {
-        color: #828282;
-    }
+
 
 }

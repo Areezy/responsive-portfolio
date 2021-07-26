@@ -1,8 +1,5 @@
 This is a repo of Responsive webpages built for my portfolio.
 
-## Page Links
-
-
 
 ## Tech Stack
 * HTML
@@ -11,4 +8,10 @@ This is a repo of Responsive webpages built for my portfolio.
 
 ## Design
 Credit to devChallenges.io for the designs
+
+```bash
+# Clone this repository
+$ git clone https://github.com/Areezy/responsive-portfolio
+
+```
 

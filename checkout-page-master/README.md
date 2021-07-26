@@ -1,5 +1,3 @@
-<!-- Please update value in the {}  -->
-
 <h1 align="center">Check Out Page</h1>
 
 <div align="center">
@@ -12,42 +10,28 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
-    </a>
-    <span> | </span>
     <a href="https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO">
       Challenge
     </a>
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 ## Table of Contents
 
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-
-<!-- OVERVIEW -->
+- [Remarks](#remarks)
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+A fully responsive checkout page with desktop and mobile designs.
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+Desktop screenshot below
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+![PC screenshot](https://drive.google.com/uc?export=view&id=1IP2sHwUPUcnoHuDEYC-eAqmmFD6gTzUS)
 
 ### Built With
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - HTML
 - CSS
@@ -59,9 +43,6 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - Total Checkout price automatically updates based on amount of producted selected
 - Fully responsive design
 
+## Remarks
 
-```bash
-# Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
-
-```
+- It was fun learning about customizing form inputs and taking the challenge to the next level with api integration.

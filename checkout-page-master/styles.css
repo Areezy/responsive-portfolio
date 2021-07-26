@@ -9,6 +9,9 @@ html {
 }
 
 body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
     margin: 4%;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 0;
@@ -244,7 +247,12 @@ footer {
     font-family: 'Montserrat';
     font-weight: 500;
     color: #A9A9A9; 
-    margin-top: 2%;
+    min-height:50px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 10px;
 }
 
 a {

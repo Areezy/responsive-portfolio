@@ -11,6 +11,9 @@ body {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 3% 3%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
@@ -136,6 +139,11 @@ footer {
     font-family: 'Montserrat';
     font-weight: 500;
     color: #A9A9A9;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 10px;
     
    
 }

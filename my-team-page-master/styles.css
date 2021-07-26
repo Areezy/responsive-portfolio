@@ -4,6 +4,8 @@
 
 body{
     margin: 10% 5%;
+    height: 100vh;
+
 }
 
 .left-col {
@@ -81,9 +83,10 @@ footer {
     text-align: center;
     font-family: 'Poppins';
     font-weight: 400;
+    
 } 
 
-.footer-text {
+.footer-text, a {
     color: grey;
 }
 

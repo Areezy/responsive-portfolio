@@ -30,7 +30,7 @@
 
 A fully responsive single page.
 
-Desktop and Mobile screenshots below
+Desktop screenshot below
 
 ![PC screenshot](https://drive.google.com/uc?export=view&id=1kXjFpuu7xccw7e4q6CI5Fqprlouq8DMX)
 
